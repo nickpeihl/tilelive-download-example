@@ -1,0 +1,29 @@
+{
+  "name": "tilelive-copy-example",
+  "version": "0.1.0",
+  "description": "An example showing how we can use tilelive to copy from a TileJSON source to an MBTiles database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/npeihl/tilelive-copy-example.git"
+  },
+  "keywords": [
+    "tilelive",
+    "tilejson",
+    "arcgis-server"
+  ],
+  "author": "Nick Peihl",
+  "license": " Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/npeihl/tilelive-copy-example/issues"
+  },
+  "homepage": "https://github.com/npeihl/tilelive-copy-example#readme",
+  "dependencies": {
+    "mbtiles": "^0.8.2",
+    "tilejson": "^1.0.1",
+    "tilelive": "^5.12.0"
+  }
+}
